@@ -1,0 +1,30 @@
+.btn-metal-rolling img{
+  width: 25px;
+  height: 25px;
+}
+
+.btn-metal-rolling li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  border: 1px solid gold;
+  background: gold;
+  padding: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.btn-metal-rolling li:last-child {
+  margin-right: 0;
+}
+
+.btn-metal-rolling {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.btn-metal-rolling .active {
+  opacity: 0.5;
+  border-color: black;
+}

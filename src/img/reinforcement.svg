@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="180px"
+	 height="180px" viewBox="0 0 180 180" enable-background="new 0 0 180 180" xml:space="preserve">
+<g id="back">
+	<path fill="none" stroke="#FF442A" stroke-miterlimit="10" d="M41.155,73.845c10.487-10.487,20.974-20.974,31.461-31.461"/>
+	<path fill="none" stroke="#FF442A" stroke-miterlimit="10" d="M35.066,89.934c16.526-16.526,33.053-33.053,49.579-49.579"/>
+	<path fill="none" stroke="#FF442A" stroke-miterlimit="10" d="M38.779,96.221c18.756-18.756,37.512-37.512,56.268-56.268"/>
+	<path fill="none" stroke="#FF442A" stroke-miterlimit="10" d="M44.768,110.232c22.135-22.135,44.27-44.27,66.404-66.404"/>
+	<path fill="none" stroke="#FF442A" stroke-miterlimit="10" d="M41.169,103.831c20.89-20.89,41.78-41.78,62.67-62.67"/>
+	<path fill="none" stroke="#FF442A" stroke-miterlimit="10" d="M47.81,117.19c23.01-23.01,46.021-46.021,69.031-69.031"/>
+	<path fill="none" stroke="#FF442A" stroke-miterlimit="10" d="M52.525,122.475C76.1,98.9,99.674,75.326,123.249,51.751"/>
+	<path fill="none" stroke="#FF442A" stroke-miterlimit="10" d="M57.388,127.612c23.42-23.42,46.84-46.84,70.261-70.261"/>
+	<path fill="none" stroke="#FF442A" stroke-miterlimit="10" d="M62.568,132.432c23.26-23.26,46.521-46.521,69.781-69.781"/>
+	<path fill="none" stroke="#FF442A" stroke-miterlimit="10" d="M68.968,136.032c22.336-22.336,44.673-44.673,67.009-67.01"/>
+	<path fill="none" stroke="#FF442A" stroke-miterlimit="10" d="M76.618,138.382c20.548-20.548,41.097-41.097,61.645-61.645"/>
+	<path fill="none" stroke="#FF442A" stroke-miterlimit="10" d="M85.76,140.274c18.688-18.702,37.399-37.382,56.132-56.041"/>
+	<path fill="none" stroke="#FF442A" stroke-miterlimit="10" d="M95.849,140.599c16.542-16.649,32.995-33.388,49.626-49.949"/>
+	<path fill="none" stroke="#FF442A" stroke-miterlimit="10" d="M109.667,136.364c9.054-9.054,18.115-18.101,27.183-27.142"/>
+	<g>
+		<g>
+			<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="30" y1="30" x2="46.834" y2="46.834"/>
+			<g>
+				<polygon points="43.381,47.309 46.179,46.179 47.309,43.381 50,50 				"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<polyline fill="none" stroke="#000000" stroke-miterlimit="10" points="162,150.5 150,150.5 133.698,133.791 			"/>
+			<g>
+				<polygon points="130,130 137.393,133.212 133.974,134.074 133.029,137.47 				"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="53.823" y1="54.927" x2="54.885" y2="55.987"/>
+			
+				<line fill="none" stroke="#000000" stroke-miterlimit="10" stroke-dasharray="3.0035,2.0024" x1="56.301" y1="57.401" x2="122.893" y2="123.902"/>
+			<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="123.602" y1="124.61" x2="124.663" y2="125.67"/>
+		</g>
+	</g>
+	<text transform="matrix(1 0 0 1 164.75 156.5)" font-family="'Tahoma'" font-size="18">D</text>
+</g>
+<g id="tavr">
+	<path fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M140.143,96.034
+		C137.161,121.08,115.848,140.5,90,140.5c-25.867,0-47.191-19.448-50.15-44.519"/>
+	<path fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M39.851,84.018C42.809,58.948,64.134,39.5,90,39.5
+		c25.847,0,47.158,19.418,50.143,44.461"/>
+	<path fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M139.664,96.166
+		c-2.55,30.048-23.781,53.422-49.956,53.422c-26.177,0-47.807-23.51-50.353-53.563L35,96V85h4.752
+		c2.547-31,24.024-53.467,50.201-53.467C116.1,31.533,137.56,55,140.146,85H145v11L139.664,96.166"/>
+</g>
+</svg>
