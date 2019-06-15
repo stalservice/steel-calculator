@@ -1,5 +1,5 @@
 import React from 'react';
-import { injectIntl, intlShape } from 'react-intl';
+import { injectIntl } from 'react-intl';
 
 const Option = ({ intl, type, id }) => {
   const text = intl.formatMessage({id: type});
@@ -11,10 +11,6 @@ const Option = ({ intl, type, id }) => {
       {text}
     </option>
   );
-};
-
-Option.propTypes = {
-  intl: intlShape.isRequired
 };
 
 export default injectIntl(Option);
