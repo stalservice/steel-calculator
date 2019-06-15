@@ -3,16 +3,45 @@ import { FormattedMessage } from 'react-intl';
 
 import BtnMetalRental from '../BtnMetalRental';
 import Select from '../Select';
+import armatureIcon from '../../svg/armature.svg';
+import armature from '../../img/reinforcement.svg';
 
 import './steelCalculator.css';
-import {metal} from "../../data";
 
 class SteelCalculator extends Component {
 
   state = {
-    activeMetalProfile: '',
-    valueSelectMetal: '',
-    selectMetal: ''
+    activeMetalProfile: {
+      titleProduct: 'detail.armature.titleProduct',
+      type: 'armature',
+      img: armatureIcon,
+      urlImg: armature,
+      parameters: {
+        d: {
+          title: 'detail.common.titleDiameter',
+          value: '',
+          min: 0,
+          max: 36
+        },
+        l: {
+          title: 'detail.common.titleLength',
+          value: '',
+          min: 0,
+          max: 10000
+        }
+      },
+      result(density = 0) {
+        const {d, l} = this.parameters;
+        return (((+d.value * +d.value * Math.PI/4 * +density) * +l.value) / 1000)
+      }
+    },
+    valueSelectMetal: 1,
+    selectMetal: {
+      id: 1,
+      type: 'detail.metal.type1',
+      marka: [],
+      density: 7850
+    },
   };
 
   setValueMetal = (value, obj) => {
@@ -65,8 +94,7 @@ class SteelCalculator extends Component {
   };
 
   render() {
-    const { activeMetalProfile, valueSelectMetal, selectMetal } = this.state;
-    const { language, toggleLanguage } = this.props;
+    const { activeMetalProfile, valueSelectMetal } = this.state;
     return (
       <div className='main'>
         <header>
@@ -75,11 +103,6 @@ class SteelCalculator extends Component {
               id='detail.titleCalculator'
             />
           </h2>
-          <button
-            onClick={toggleLanguage}
-          >
-            {language === 'uk-UK' ? 'uk' : 'ru'}
-          </button>
         </header>
 
         <BtnMetalRental

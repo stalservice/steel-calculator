@@ -3,7 +3,6 @@ import './btn-metal-rental.css'
 import { steelTypes } from '../../data'
 
 
-
 const BtnMetalRental = ({ activeMetalProfile, setMetalProfile }) => {
 
   return (

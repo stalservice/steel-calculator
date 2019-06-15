@@ -11,33 +11,14 @@ import SteelCalculator from './component/SteelCalculator';
 
 addLocaleData([  ...ukLocaleData, ...ruLocaleData ]);
 
-let locale =
-  (navigator.languages && navigator.languages[0])
-  || navigator.language
-  || navigator.userLanguage
-  || 'uk-UK';
-
 class App extends Component {
 
-  state = {
-    language: 'uk-UK'
-  };
-
-  toggleLanguage = () => {
-    this.setState(({language}) => ({
-      language: language === 'uk-UK' ? 'ru-RU' : 'uk-UK'
-    }))
-  };
-
   render () {
-    const { language } = this.state;
+    const { locale } = this.props;
     return (
       <div className="App">
-        <IntlProvider locale={locale} messages={flattenMessages(messages[language])}>
-          <SteelCalculator
-            toggleLanguage={this.toggleLanguage}
-            language={language}
-          />
+        <IntlProvider locale={locale} messages={flattenMessages(messages[locale])}>
+          <SteelCalculator />
 
         </IntlProvider>
       </div>

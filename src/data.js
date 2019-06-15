@@ -396,16 +396,9 @@ export const steelTypes = [
       )
     }
   },
-
 ];
 
 export const metal = [
-  {
-    id: 0,
-    type: 'detail.metal.type0',
-    marka: [],
-    density: ''
-  },
   {
     id: 1,
     type: 'detail.metal.type1',
