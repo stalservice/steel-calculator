@@ -3,9 +3,10 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-const uk = 'uk-UK';
-const ru = 'ru-RU';
-ReactDOM.render(<App locale={uk}/>, document.getElementById('root'));
+
+const root = document.getElementById('root');
+const locale = root.getAttribute('locale');
+ReactDOM.render(<App locale={locale}/>, root);
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
