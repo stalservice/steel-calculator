@@ -1,33 +1,33 @@
-import armatureIcon from './img/icons/armature.svg';
-import cornerIcon from './img/icons/corner.svg';
-import pipeProfIcon from './img/icons/pipeProf.svg';
-import pipeCircleIcon from './img/icons/pipeCircle.svg';
-import circleIcon from './img/icons/circle.svg';
-import squareIcon from './img/icons/square.svg';
-import ribbonIcon from './img/icons/ribbon.svg';
-import listIcon from './img/icons/list.svg';
-import balk2Icon from './img/icons/balk2.svg'
-import balkIcon from './img/icons/balk.svg';
-import сhannelIcon from './img/icons/сhannel.svg'
+import { ReactComponent as ArmatureIcon } from './img/icons/armature.svg';
+import { ReactComponent as CornerIcon } from './img/icons/corner.svg';
+import { ReactComponent as PipeProfIcon } from './img/icons/pipeProf.svg';
+import { ReactComponent as PipeCircleIcon } from './img/icons/pipeCircle.svg';
+import { ReactComponent as CircleIcon } from './img/icons/circle.svg';
+import { ReactComponent as SquareIcon } from './img/icons/square.svg';
+import { ReactComponent as RibbonIcon } from './img/icons/ribbon.svg';
+import { ReactComponent as ListIcon } from './img/icons/list.svg';
+import { ReactComponent as Balk2Icon } from './img/icons/balk2.svg'
+import { ReactComponent as BalkIcon } from './img/icons/balk.svg';
+import { ReactComponent as ChannelIcon } from './img/icons/channel.svg'
 
-import armature from './img/incisions/reinforcement.svg';
-import corner from './img/incisions/corner-b.svg';
-import pipeProf from './img/incisions/pipe-b.svg';
-import pipeCircle from './img/incisions/pipe.svg';
-import circle from './img/incisions/round.svg';
-import square from './img/incisions/square.svg';
-import ribbon from './img/incisions/strip.svg';
-import list from './img/incisions/sheet.svg';
-import balk2 from './img/incisions/beam-h.svg';
-import balk from './img/incisions/tavr.svg';
-import сhannel from './img/incisions/channel-b.svg'
+import { ReactComponent as Armature } from './img/incisions/reinforcement.svg';
+import { ReactComponent as Corner } from './img/incisions/corner-b.svg';
+import { ReactComponent as PipeProf } from './img/incisions/pipe-b.svg';
+import { ReactComponent as PipeCircle } from './img/incisions/pipe.svg';
+import { ReactComponent as Circle } from './img/incisions/round.svg';
+import { ReactComponent as Square } from './img/incisions/square.svg';
+import { ReactComponent as Ribbon } from './img/incisions/strip.svg';
+import { ReactComponent as List } from './img/incisions/sheet.svg';
+import { ReactComponent as Balk2 } from './img/incisions/beam-h.svg';
+import { ReactComponent as Balk } from './img/incisions/tavr.svg';
+import { ReactComponent as Channel } from './img/incisions/channel-b.svg'
 
 export const steelTypes = [
   {
     titleProduct: 'detail.armature.titleProduct',
     type: 'armature',
-    img: armatureIcon,
-    urlImg: armature,
+    img: ArmatureIcon,
+    urlImg: Armature,
     parameters: {
       d: {
         title: 'detail.common.titleDiameter',
@@ -50,8 +50,8 @@ export const steelTypes = [
   {
     titleProduct: 'detail.corner.titleProduct',
     type: 'corner',
-    img: cornerIcon,
-    urlImg: corner,
+    img: CornerIcon,
+    urlImg: Corner,
     parameters: {
       b: {
         title: 'detail.common.titleHeightShelfB',
@@ -86,8 +86,8 @@ export const steelTypes = [
   {
     titleProduct: 'detail.pipeProf.titleProduct',
     type: 'pipeProf',
-    img: pipeProfIcon,
-    urlImg: pipeProf,
+    img: PipeProfIcon,
+    urlImg: PipeProf,
     parameters: {
       b: {
         title: 'detail.pipeProf.titleB',
@@ -122,8 +122,8 @@ export const steelTypes = [
   {
     titleProduct: 'detail.pipeCircle.titleProduct',
     type: 'pipeCircle',
-    img: pipeCircleIcon,
-    urlImg: pipeCircle,
+    img: PipeCircleIcon,
+    urlImg: PipeCircle,
     parameters: {
       d: {
         title: 'detail.common.titleDiameter',
@@ -152,8 +152,8 @@ export const steelTypes = [
   {
     titleProduct: 'detail.circle.titleProduct',
     type: 'circle',
-    img: circleIcon,
-    urlImg: circle,
+    img: CircleIcon,
+    urlImg: Circle,
     parameters: {
       d: {
         title: 'detail.common.titleDiameter',
@@ -176,8 +176,8 @@ export const steelTypes = [
   {
     titleProduct: 'detail.square.titleProduct',
     type: 'square',
-    img: squareIcon,
-    urlImg: square,
+    img: SquareIcon,
+    urlImg: Square,
     parameters: {
       a: {
         title: 'detail.square.titleA',
@@ -200,8 +200,8 @@ export const steelTypes = [
   {
     titleProduct: 'detail.ribbon.titleProduct',
     type: 'ribbon',
-    img: ribbonIcon,
-    urlImg: ribbon,
+    img: RibbonIcon,
+    urlImg: Ribbon,
     parameters: {
       a: {
         title: 'detail.ribbon.titleA',
@@ -231,8 +231,8 @@ export const steelTypes = [
   {
     titleProduct: 'detail.list.titleProduct',
     type: 'list',
-    img: listIcon,
-    urlImg: list,
+    img: ListIcon,
+    urlImg: List,
     parameters: {
       s: {
         title: 'detail.list.titleS',
@@ -261,8 +261,8 @@ export const steelTypes = [
   {
     titleProduct: 'detail.balk2.titleProduct',
     type: 'balk2',
-    img: balk2Icon,
-    urlImg: balk2,
+    img: Balk2Icon,
+    urlImg: Balk2,
     parameters: {
       h: {
         title: 'detail.common.titleHeightBeamH',
@@ -305,8 +305,8 @@ export const steelTypes = [
   {
     titleProduct: 'detail.balk.titleProduct',
     type: 'balk',
-    img: balkIcon,
-    urlImg: balk,
+    img: BalkIcon,
+    urlImg: Balk,
     parameters: {
       h: {
         title: 'detail.common.titleHeightBeamH',
@@ -349,8 +349,8 @@ export const steelTypes = [
   {
     titleProduct: 'detail.сhannel.titleProduct',
     type: 'сhannel',
-    img: сhannelIcon,
-    urlImg: сhannel,
+    img: ChannelIcon,
+    urlImg: Channel,
     parameters: {
       h: {
         title: 'detail.сhannel.titleH',

@@ -6,15 +6,18 @@ import { steelTypes } from '../data'
 const BtnMetalRental = ({ activeMetalProfile, setMetalProfile }) => (
   <ul className='btn-metal-rolling'>
     {
-      steelTypes.map((item) => (
-        <li
-          key={item.type}
-          className={activeMetalProfile.type === item.type ? 'active' : ''}
-          onClick={() => setMetalProfile( item )}
-        >
-          <img src={item.img} alt={item.type} />
-        </li>
-      ))
+      steelTypes.map((item) => {
+        const Img = item.img;
+        return (
+          <li
+            key={item.type}
+            className={activeMetalProfile.type === item.type ? 'active' : ''}
+            onClick={() => setMetalProfile( item )}
+          >
+            <Img />
+          </li>
+        );
+      })
     }
   </ul>
 );

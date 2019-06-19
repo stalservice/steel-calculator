@@ -59,6 +59,7 @@ class SteelCalculator extends Component {
 
   render() {
     const { activeMetalProfile, selectedMetal } = this.state;
+    const Img = activeMetalProfile.urlImg;
     return (
       <div className='main'>
         <header>
@@ -107,7 +108,7 @@ class SteelCalculator extends Component {
               {
                 activeMetalProfile.length !== 0
                   ? (
-                    <img src={activeMetalProfile.urlImg} alt={activeMetalProfile.type} />
+                    <Img />
                   )
                   : null
               }
