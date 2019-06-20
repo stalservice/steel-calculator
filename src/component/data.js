@@ -453,34 +453,4 @@ export const metal = [
     marka: [],
     density: 2850
   },
-  {
-    id: 10,
-    type: 'detail.metal.type10',
-    marka: [],
-    density: 4540
-  },
-  {
-    id: 11,
-    type: 'detail.metal.type11',
-    marka: [],
-    density: 8960
-  },
-  {
-    id: 12,
-    type: 'detail.metal.type12',
-    marka: [],
-    density: 8600
-  },
-  {
-    id: 13,
-    type: 'detail.metal.type13',
-    marka: [],
-    density: 11340
-  },
-  {
-    id: 14,
-    type: 'detail.metal.type14',
-    marka: [],
-    density: 19300
-  },
 ];

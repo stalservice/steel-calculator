@@ -38,8 +38,8 @@ class SteelCalculator extends Component {
           </p>
           <input
             className='inputValue'
-            placeholder='0.0'
-            step="0.1"
+            placeholder='0'
+            step="1"
             max={max}
             min={min}
             type="number"

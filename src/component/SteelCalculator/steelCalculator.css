@@ -1,7 +1,7 @@
 .main {
-  background: gray;
   padding: 20px;
   border-radius: 5px;
+  border: #000000 2px solid;
 }
 
 .main header {
@@ -26,18 +26,17 @@
 }
 
 .logo {
-  font: 600 22px/1 SansSerif sans-serif;
+  font: 600 22px/1 Roboto, Arial, Helvetica, sans-serif;
 }
 
 .block-metal-profile-img {
-  min-height: 265px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 .block-metal-profile-img h3 {
-  font: 600 20px/1 SansSerif sans-serif;
+  font: 600 20px/1 Roboto, Arial, Helvetica, sans-serif;
   margin-bottom: 15px;
 }
 
@@ -60,12 +59,12 @@
 }
 
 .details-container .inputValue {
-  width: 150px;
+  width: 200px;
   padding: 5px;
   margin: 5px 0;
   border-radius: 5px;
-  border: 2px solid lightgrey;
-  font: 500 16px/1 SansSerif sans-serif;
+  border: 2px solid #000000;
+  font: 500 16px/1 Roboto, Arial, Helvetica, sans-serif;
 }
 
 .details-container .inputValue:hover {
@@ -77,5 +76,5 @@
 }
 
 .details-container p {
-  font: 600 18px/1 SansSerif sans-serif;
+  font: 600 18px/1 Roboto, Arial, Helvetica, sans-serif;
 }

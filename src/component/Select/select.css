@@ -8,8 +8,8 @@
   width: 150px;
   padding: 5px;
   border-radius: 5px;
-  border: 2px solid lightgrey;
-  font: 500 16px/1 SansSerif sans-serif;
+  border: 2px solid #000000;
+  font: 500 16px/1 Roboto, Arial, Helvetica, sans-serif;
 }
 
 .selects-block select:hover {
