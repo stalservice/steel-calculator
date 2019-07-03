@@ -77,7 +77,7 @@ export default {
   },
   'ru-RU': {
     detail: {
-      titleCalculator: 'Калькулятор метала',
+      titleCalculator: 'Калькулятор металла',
       common: {
         titleLength: 'Длина L, м',
         titleDiameter: 'Диаметр D, мм',
